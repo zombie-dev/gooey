@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'UUIDTools'
+
+guid_count = ARGV[0].nil? ? "1" : ARGV[0];
+
+if guid_count.=~ /^[0-9]+$/ then
+  guid_count.to_i.times do |i|
+    puts "#{i+1}:\t#{UUIDTools::UUID.random_create}"
+  end
+else
+  puts "Must enter integer argument, usage: guid count"
+end
