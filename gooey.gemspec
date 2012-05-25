@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Gooey::VERSION
 
-  gem.add_dependency "UUIDTools"
+  gem.add_dependency('uuidtools')
 end
