@@ -1,6 +1,6 @@
 # Gooey
 
-TODO: Write a gem description
+Simple utility program to generate GUID's
 
 ## Installation
 
